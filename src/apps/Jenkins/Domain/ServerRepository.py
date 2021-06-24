@@ -11,4 +11,4 @@ class ServerRepository:
     def get_number(self) -> int: pass
 
     @abc.abstractmethod
-    def get_status(self, number: int) -> str: pass
+    def get_status(self, number, result: int) -> str: pass
