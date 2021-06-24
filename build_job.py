@@ -38,6 +38,7 @@ print(f"BUILD NUMBER: {build_number}")
 if JENKINS_WAIT_JOB == "no-wait" and build_number:
     print("Job status is : EXECUTED")
     print("::set-output name=job_status::EXECUTED")
+    print("RA UI Sonar Job EXECUTED")
     exit(0)
 
 # Get build status
